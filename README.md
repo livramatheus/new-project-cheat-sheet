@@ -7,7 +7,7 @@
 *`https://github.com/Rocketseat/eslint-config-rocketseat`*
 
 1. Run `npm i -D eslint @rocketseat/eslint-config`
-2. Inside .eslintrc.json:
+2. Inside `.eslintrc.json`:
 
 ```json
 {
@@ -30,3 +30,23 @@ module.exports = {
   plugins: ['prettier-plugin-tailwindcss'],
 }
 ``` 
+
+### Clean default files/folders
+
+- Clean `/public` folder and add a `.gitkeep` file
+- Keep only tailwind declarataions on `/app/globals.css`
+- Clean up `/app/page.tsx` file
+
+### Connect to a GitHub repository
+
+- Create the repository and add remote origin
+- Create the first commit and push files
+
+### Creating Production and Test environments on Vercel
+
+- Create a `test` branch out of `main` branch on GitHub
+- On Vercel, create a new project and link it to the GitHub repository
+- Run the first build on Vercel
+- Under the projects settings on Vercel, click on "Settings" and then click on "Domains"
+- Fill the domain, such as "test-my-app-123.vercel.app" and click on "Add"
+- Set the "Git Branch" field to the previously created `test` branch
