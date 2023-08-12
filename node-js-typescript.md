@@ -92,15 +92,6 @@ npm i express
 ```bash
 npm install -D @types/express
 ```
-
-## Connect to a GitHub repository
-
-1. Run `git init`
-2. Create the `.gitignore` file
-3. Paste into the `.gitinore` the contents of [this template](https://github.com/github/gitignore/blob/main/Node.gitignore)
-4. Create the repository and add remote origin
-5. Create the first commit and push files
-
 ## Testing
 
 1. Create a file named `index.ts` under `./src` and paste the following:
@@ -122,3 +113,11 @@ app.listen(port, () => {
 ```
 
 2. Test `build`, `start` and `dev` scripts
+
+## Connect to a GitHub repository
+
+1. Run `git init`
+2. Create the `.gitignore` file
+3. Paste into the `.gitinore` the contents of [this template](https://github.com/github/gitignore/blob/main/Node.gitignore)
+4. Create the repository and add remote origin
+5. Create the first commit and push files
