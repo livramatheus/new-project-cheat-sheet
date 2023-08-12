@@ -51,7 +51,7 @@ Source: [eslint-config-rocketseat](https://github.com/Rocketseat/eslint-config-r
 ```bash
 npm i -D eslint @rocketseat/eslint-config
 ```
-2. Inside `.eslintrc.json`:
+2. Create `.eslintrc.json` file in the root of the project and set it up as follows:
 
 ```json
 {
