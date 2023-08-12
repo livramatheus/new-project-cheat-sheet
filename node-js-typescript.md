@@ -1,4 +1,4 @@
-# New Node.JS + TypeScript + Express + eslint project cheat sheet
+# New Node.JS + TypeScript + Express project cheat sheet
 
 This cheat sheet depicts some broad instructions on how to set up a new Node.JS + TypeScript + Express project. It's suited for those who already have some experience and just want a simple checklist for a brand new project.
 
