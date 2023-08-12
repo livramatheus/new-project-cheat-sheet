@@ -47,7 +47,10 @@ npm i --save-dev eslint
 
 Source: [eslint-config-rocketseat](https://github.com/Rocketseat/eslint-config-rocketseat)
 
-1. Run `npm i -D eslint @rocketseat/eslint-config`
+1. Run:
+```bash
+npm i -D eslint @rocketseat/eslint-config
+```
 2. Inside `.eslintrc.json`:
 
 ```json
