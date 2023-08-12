@@ -1,5 +1,16 @@
 # New Next.JS + TailwindCSS project cheat sheet
 
+This cheat sheet depicts some broad instructions on how to set up a new Next.JS + TailwindCSS. It's suited for those who already have some experience and just want a simple checklist for a brand new project.
+
+This cheat sheet will guide you through:
+
+- Initializing a Next.js project
+- Installing a lint preset
+- Installing prettier plugin for Tailwind
+- Cleaning default files and folders from Next.js
+- Connecting the project to GitHub
+- Creating Production and Test environments on Vercel
+
 ## Initializing Next.js Project
 1. Run `npx create-next-app@latest .` inside the desired project folder
 
