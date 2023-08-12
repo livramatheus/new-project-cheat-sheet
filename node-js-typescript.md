@@ -73,7 +73,7 @@ npm i --save-dev nodemon
 "scripts": {
   "build": "npx tsc",
   "start": "node dist/index.js",
-  "dev": "nodemon index.ts"
+  "dev": "nodemon src/index.ts"
 }
 ```
 
