@@ -4,7 +4,7 @@ This cheat sheet depicts some broad instructions on how to set up a new Node.JS 
 
 This cheat sheet will guide you through:
 
-- Initializing a Next.js project
+- Initializing a Node.js project
 - Installing TypeScript
 - Installing eslint
 - Installing lint preset
