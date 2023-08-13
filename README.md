@@ -1,7 +1,7 @@
 # New project cheat sheet
 
-This repository holds a few cheat sheet for initializing new projects.
-The reason behind it is because I always tend to forget a step or miss a dependency. With a cheat sheet in hands, I'm sure that I'll be able to set up new projects in a consistent way.
+This repository holds a few cheat sheets for initializing new projects.
+The reason behind it is that I always tend to forget a step or miss a dependency. With a cheat sheet in hand, I'm sure that I'll be able to set up new projects in a consistent way.
 
 ## Cheat sheets
 
