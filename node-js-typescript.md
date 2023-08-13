@@ -4,7 +4,14 @@ This cheat sheet depicts some broad instructions on how to set up a new Node.JS 
 
 This cheat sheet will guide you through:
 
-- @todo
+- Initializing a Next.js project
+- Installing TypeScript
+- Installing eslint
+- Installing lint preset
+- Installing nodemon
+- Installing express
+- Testing
+- Connecting to a GitHub repository
 
 ## Initializing Node.js Project
 
@@ -114,7 +121,7 @@ app.listen(port, () => {
 
 2. Test `build`, `start` and `dev` scripts
 
-## Connect to a GitHub repository
+## Connecting to a GitHub repository
 
 1. Run `git init`
 2. Create the `.gitignore` file
