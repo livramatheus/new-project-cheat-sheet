@@ -1,52 +1,34 @@
-# New Next.JS + TailwindCSS project cheat sheet
+# New project cheat sheet
 
-### Initializing Next.js Project
-1. Run `npx create-next-app@latest .` inside the desired project folder
+This repository holds a few cheat sheet for initializing new projects.
+The reason behind it is because I always tend to forget a step or miss a dependency. With a cheat sheet in hands, I'm sure that I'll be able to set up new projects in a consistent way.
 
-### Installing lint preset
-*`https://github.com/Rocketseat/eslint-config-rocketseat`*
+## Cheat sheets
 
-1. Run `npm i -D eslint @rocketseat/eslint-config`
-2. Inside `.eslintrc.json`:
+### Next.JS + TailwindCSS
 
-```json
-{
-  "extends": [
-    "@rocketseat/eslint-config/next", 
-    "next/core-web-vitals"
-  ]
-}
-```
+This cheat sheet targets
 
-### Installing prettier plugin for Tailwind
-*`https://github.com/tailwindlabs/prettier-plugin-tailwindcss`*
+- Initializing a Next.js project
+- Installing a lint preset
+- Installing prettier plugin for Tailwind
+- Cleaning default files and folders from Next.js
+- Connecting the project to GitHub
+- Creating Production and Test environments on Vercel
 
-1. Run `npm install -D prettier-plugin-tailwindcss`
-2. Create `prettier.config.js` file on project root
-3. Paste the following inside this file:
+[Link to Next.JS + TailwindCSS project cheat sheet](https://github.com/livramatheus/new-project-cheat-sheet/blob/main/next-js.md)
 
-```js
-module.exports = {
-  plugins: ['prettier-plugin-tailwindcss'],
-}
-``` 
+### Node.JS + TypeScript + Express
 
-### Clean default files/folders
+This cheat sheet targets
 
-- Clean `/public` folder and add a `.gitkeep` file
-- Keep only tailwind declarataions on `/app/globals.css`
-- Clean up `/app/page.tsx` file
+- Initializing a Node.js project
+- Installing TypeScript
+- Installing eslint
+- Installing lint preset
+- Installing nodemon
+- Installing express
+- Testing
+- Connecting to a GitHub repository
 
-### Connect to a GitHub repository
-
-- Create the repository and add remote origin
-- Create the first commit and push files
-
-### Creating Production and Test environments on Vercel
-
-- Create a `test` branch out of `main` branch on GitHub
-- On Vercel, create a new project and link it to the GitHub repository
-- Run the first build on Vercel
-- Under the projects settings on Vercel, click on "Settings" and then click on "Domains"
-- Fill the domain, such as "test-my-app-123.vercel.app" and click on "Add"
-- Set the "Git Branch" field to the previously created `test` branch
+[Link to Node.JS + TypeScript + Express project cheat sheet](https://github.com/livramatheus/new-project-cheat-sheet/blob/main/node-js-typescript.md)
