@@ -12,7 +12,11 @@ This cheat sheet will guide you through:
 - Creating Production and Test environments on Vercel
 
 ## Initializing Next.js Project
-1. Run `npx create-next-app@latest .` inside the desired project folder
+1. Run the following command inside the desired project folder
+
+```bash
+npx create-next-app@latest .
+``` 
 
 ## Installing lint preset
 
@@ -20,8 +24,13 @@ There is no need to install eslint, it comes packaged with Next.js installation.
 
 Source: [eslint-config-rocketseat](https://github.com/Rocketseat/eslint-config-rocketseat)
 
-1. Run `npm i -D eslint @rocketseat/eslint-config`
-2. Inside `.eslintrc.json`:
+1. Run
+
+```bash
+npm i -D eslint @rocketseat/eslint-config
+```
+
+2. Set up the preset inside `.eslintrc.json`:
 
 ```json
 {
@@ -36,7 +45,12 @@ Source: [eslint-config-rocketseat](https://github.com/Rocketseat/eslint-config-r
 
 Source: [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
-1. Run `npm install -D prettier-plugin-tailwindcss`
+1. Run 
+
+```bash
+npm install -D prettier-plugin-tailwindcss
+```
+
 2. Create `prettier.config.js` file on project root
 3. Paste the following inside this file:
 
